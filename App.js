@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { FlatList, StyleSheet, Text, View, RefreshControl, SafeAreaView } from 'react-native';
-import { Item } from "./components/item"; // Item bileşeninizin doğru import edildiğinden emin olun
+import { Item } from "./components/item";
 import axios from 'axios';
 import {Header} from "./components/Header";
 
